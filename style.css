@@ -1,0 +1,54 @@
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 307px;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+}
+
+.one,
+.two,
+.four,
+.five,
+.seven,
+.eight{
+    border-right: 2px solid black;
+}
+
+.two,
+.three,
+.five,
+.six,
+.eight,
+.nine{
+    border-left: 2px solid black;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    border-bottom: 2px solid black;
+}
+
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine{
+    border-top: 2px solid black;
+}
