@@ -9,12 +9,14 @@
 .board{
     display: flex;
     flex-wrap: wrap;
-    width: 307px;
+    width: 910px;
 }
 
 .cell{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    font-size: 250px;
+    text-align: center;
 }
 
 .one,
